@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int percentage;
+    cout << "Enter the percentage \n";
+    cin >> percentage;
+    
+    
+    if(percentage>=91 & percentage<=100)
+    cout<<"O";
+    else if(percentage>=81 & percentage<=90)
+    cout<<"A+";
+    else if(percentage>=71 & percentage<=80)
+    cout<<"A";
+    else if(percentage>=61 & percentage<=70)
+    cout<<"B+";
+    else if(percentage>=51 & percentage<=60)
+    cout<<"B";
+    else if(percentage>=41 & percentage<=50)
+    cout<<"C";
+    else 
+    cout<<"F";
+    cout<<endl;
+    return 0;
+
+}
