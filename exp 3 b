@@ -1,3 +1,9 @@
+#Tiya Jain
+PRN: 22070123126
+ENTC B2
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -27,3 +33,10 @@ int main()
     return 0;
 
 }
+
+/* 
+Enter the percentage 
+87
+A+
+*/
+
