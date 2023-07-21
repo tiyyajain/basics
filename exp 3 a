@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int prn = 23126;
+    
+    while (prn > 0) {
+        int digit = prn % 10;
+        std::cout << digit << std::endl;
+        prn /= 10;
+    }
+    
+    return 0;
+}
